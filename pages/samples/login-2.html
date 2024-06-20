@@ -27,7 +27,7 @@
           <div class="col-lg-6 d-flex align-items-center justify-content-center">
             <div class="auth-form-transparent text-left p-3">
               <div class="brand-logo">
-                <img src="../../images/logo-dark.svg" alt="logo">
+                <img src="../../images/kariersebelas.png" alt="logo" width="100px">
               </div>
               <h4>Welcome back!</h4>
               <h6 class="font-weight-light">Happy to see you again!</h6>
@@ -54,6 +54,12 @@
                     <input type="password" class="form-control form-control-lg border-left-0" id="exampleInputPassword" placeholder="Password">                        
                   </div>
                 </div>
+                <select class="form-control form-control-lg border-left-0" id="roleSelection">
+                  <option value="" disabled selected>Pilih Role</option>
+                  <option value="admin">Admin</option>
+                  <option value="perusahaan">Perusahaan</option>
+                  <option value="user">User</option>
+                </select> 
                 <div class="my-2 d-flex justify-content-between align-items-center">
                   <div class="form-check">
                     <label class="form-check-label text-muted">
@@ -64,18 +70,22 @@
                   <a href="#" class="auth-link text-black">Forgot password?</a>
                 </div>
                 <div class="my-3">
-                  <a class="btn btn-block btn-info btn-lg font-weight-medium auth-form-btn" href="../../index.html">LOGIN</a>
+                  <a class="btn btn-block btn-info btn-lg font-weight-medium auth-form-btn" href="../alumni/indexa.html">Alumni</a>
                 </div>
-                <div class="mb-2 d-flex">
-                  <button type="button" class="btn btn-facebook auth-form-btn flex-grow mr-1">
+                <div class="my-3">
+                  <a class="btn btn-facebook auth-form-btn flex-grow mr-1" href="../../index.html">Admin</a>
+                  <a class="btn btn-google auth-form-btn flex-grow ml-1" href="../perusahaan/indexp.html">Perusahaan</a>
+                </div>
+                <!-- <div class="mb-2 d-flex">
+                  <a href="pages/tables/indexa.html" class="btn btn-facebook auth-form-btn flex-grow mr-1">
                     <i class="mdi mdi-facebook mr-2"></i>
-                    Facebook
-                  </button>
+                    Alumni
+                  </a>
                   <button type="button" class="btn btn-google auth-form-btn flex-grow ml-1">
                     <i class="mdi mdi-google mr-2"></i>
-                    Google
+                    Perusahaan
                   </button>
-                </div>
+                </div> -->
                 <div class="text-center mt-4 font-weight-light">
                   Don't have an account? <a href="register-2.html" class="text-primary">Create</a>
                 </div>

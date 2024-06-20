@@ -159,7 +159,7 @@
       labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug"],
       datasets: [
         {
-          label: 'Sessions',
+          label: 'Alumni',
           data: [24000,83123,24000,36000,20000,39000,72000,44000,18000],
           backgroundColor: [
             '#3794fc','#3794fc','#3794fc','#3794fc','#3794fc','#3794fc','#3794fc','#3794fc',
@@ -171,7 +171,7 @@
           fill: false
         },
         {
-        label: 'New Users',
+        label: 'Alumni dengan pekerjaan',
         data: [35000,3333,58000,32000,15000,37000,41000,32000,22000],
         backgroundColor: [
           '#a037fc',
@@ -197,7 +197,7 @@
         fill: false
       },
       {
-        label: 'Page Views',
+        label: 'Alumni Tanpa Pekerjaan',
         data: [24000,16869,47000,19000,25000,12000,32000,25000,22000],
         backgroundColor: [
           '#dee5ef','#dee5ef','#dee5ef','#dee5ef','#dee5ef','#dee5ef','#dee5ef','#dee5ef',
